@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #255EE9;
+    
+}
+
+
+.b-color{
+    background-color: #F6F6F6;
+    height: 500px;
+    
+}
+
+.bottoni1 :hover{
+    color: #255EE9;
+    cursor: pointer;
+    
+}
+
+.logo{
+    padding: 20px;
+    margin-right: 150px;
+}
+
+.nav-bar{
+    
+    width: 70%;
+    margin: 0 auto;
+}
+
+.lista{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li{
+    list-style: none;
+    float: left;
+    margin-bottom: 25px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 16px;
+    margin-left: 60px;
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+nav ul li :hover{
+    color: grey;
+}
+
+.prova{
+    background-color: red;
+}
+
+.accedi{
+    width: 65px;
+    padding: 9px;
+    border-radius: 19px;
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    display:inline-block;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    vertical-align: middle;
+    background-color: white;
+    border: 0px;
+   
+}
+
+.button{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.blocco1{
+    background-image: url(./../img/jumbo.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.testo1{
+    position: absolute;
+    color: white;
+    font-size: 56px;
+    font-family: "Ginto Nord", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-left: 650px;
+    margin-top: 80px;
+}
+
+.testo2{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: "Ginto Nord", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-left: 590px;
+    margin-top: 200px;
+}
+
+.bottoni1{
+    display:inline-block;
+    color: white;
+    text-decoration: none;
+    margin-top: 250px;
+    margin-left:45rem;
+    
+    
+   
+    
+   
+    
+}
+
+.testo-button{
+    padding: 15px;
+    border-radius: 50px;
+    background-color: white;
+    font-size: 15px;
+    border: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+
+.testo-button2{
+    padding: 15px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+}
+
+
+.float-left{
+    float: left;
+}
+
+
+.float-right{
+    float: right;
+}
+
+
+.section-margin1{
+    margin-top: 100px;
+}
+
+
+.section-margin-general{
+    margin-top: 300px;
+}
+
+.img-svg{
+    margin-left: 250px;
+    margin-right: 200px;
+    margin-top: -30px;
+}
+
+.testo-svg{
+    font-family: "Ginto Normal", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif ; 
+    font-size: 48px;
+    margin-right: 450px;
+    margin-left: 450px;
+    
+}
+
+.testo-svg-piccolo{
+    font-family: "Whitney, Helvetica Neue, Helvetica, Arial, sans-serif";
+    font-size:20px ;
+    margin-right: 450px;
+    margin-left: 450px;
+
+}
