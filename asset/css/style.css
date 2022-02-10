@@ -10,6 +10,12 @@ header{
 }
 
 
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .b-color{
     background-color: #F6F6F6;
     height: 500px;
@@ -164,7 +170,7 @@ nav ul li :hover{
 
 
 .section-margin-general{
-    margin-top: 300px;
+    margin-top: 400px;
 }
 
 .img-svg{
@@ -188,3 +194,129 @@ nav ul li :hover{
     margin-left: 450px;
 
 }
+
+.last-section{
+    height: 100vh;
+    position: relative;
+    margin-top: 100px;
+    background-color: #F6F6F6;
+}
+
+.testo-last-section{
+    font-family: "Ginto Nord", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 40px;
+    margin-top: 70px;
+    position: absolute;
+    margin-left: 550px;
+
+}
+
+.testo-piccolo-last-section{
+    font-family:Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 150px;
+    margin-left: 480px;
+    position: absolute;
+
+}
+
+.img-svg-footer{
+    margin-top: 200px;
+    margin-left: 550px;
+}
+
+.avventura{
+    font-family: "Ginto Normal", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 32px;
+    text-align: center;
+    background-image: url(./../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.button-download{
+    padding: 13px;
+    border-radius: 50px;
+    background-color: #5865F2;
+    color: white;
+    font-size: 15px;
+    border: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 870px;
+    
+}
+
+.margin-button{
+    margin-top: 40px;
+}
+
+.button-download :hover{
+    color: black;
+    cursor: pointer;
+    
+}
+
+.footer{
+    height: 70vh;
+    position: relative;
+    background-color:#23272A;
+
+}
+
+
+
+.testo-footer{
+    color: #5865F2;
+    font-family: "Ginto Nord", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 32px;
+    position: absolute;
+    margin-top:70px ;
+    float: left;
+    
+    
+}
+
+.footer-div{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.bandiera{
+    width: 30px;
+    margin-top: 170px;
+}
+
+.italiano{
+    color: white;
+    display: inline-block;
+    
+}
+
+.icone{
+    color: white;
+    margin-top: 10px;
+    float: left;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.lista2{
+    float: right;
+    margin-left: 200px;
+    
+    
+}
+
+.hr{
+    color: #000000;
+    margin-top: 200px;
+    
+}
+
+.logo-footer{
+    margin-top: 50px;
+}
+
